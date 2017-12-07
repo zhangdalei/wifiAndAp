@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xtc.newsoftap.MainActivity">
+
+    <TextView
+        android:id="@+id/apText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ap状态"/>
+    <TextView
+        android:id="@+id/wifiTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="wifi状态"/>
+    <Button
+        android:id="@+id/apOnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apon"/>
+    <Button
+        android:id="@+id/apOffBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apoff"/>
+    <Button
+        android:id="@+id/wifiScanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wifiscan"/>
+
+</LinearLayout>
